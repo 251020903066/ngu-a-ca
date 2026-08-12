@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: pink;
+    padding: 15px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid black;
+}
+
+.box1 {
+    padding: 30px 0px;
+    display: flex;
+    gap: 50px;
+}
+
+.top-1{
+    padding: 15px;
+}
+.fed {
+    display: flex;
+    padding: 10px 0px;
+    gap: 20px;
+    background-color: rgba(228, 228, 110, 0.226);
+    width: 1000px;
+    height: 320px;
+}
+
+.fed img {
+    width: 500px;
+    height: 300px;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+}
+
+.item {
+    width: 300px;
+    padding: 20px;
+}
+
+.bot-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.search label{
+    padding-right: 20px;
+}
+
+.lichtrinh {
+    margin-top: 50px;
+    border: 1px solid rgba(255, 192, 203, 0.192)  ;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+}
+
+.tieude {
+    display: flex;
+    gap: 100px;
+}
+
+.ngay {
+    width: 100px;
+    border: 3px solid rgb(30, 148, 89);
+    padding: 5px;
+}
+
+.ten {
+    width: 200px;
+    border: 3px solid rgb(30, 148, 89);
+    padding: 5px;
+}
